@@ -108,4 +108,6 @@ app1.listen(8000,()=>{
     console.log("sever atarted at port 8000")
 })
 
+export default app1;
+
 //@langcgain/community
