@@ -84,7 +84,7 @@ async function main() {
 
     const parser = new StringOutputParser();
 
-    app1.post('/api/submit',async (req,res)=>{
+    app1.post('https://rag-with-ui-express.vercel.app/api/submit',async (req,res)=>{
 
     const finalState = await app.invoke({
 
